@@ -168,7 +168,7 @@ function Header() {
                         </li> */}
 
                         <li>
-                            <button className="flex items-center gap-2 bg-gradient-to-r from-teal-900 to-teal-950 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => { navigate('/login'); setIsMenuOpen(false) }}><Mail size={20} /> Contact</button>
+                            <button className="flex items-center gap-2 bg-gradient-to-r from-teal-900 to-teal-950 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => { navigate('/contact'); setIsMenuOpen(false) }}><Mail size={20} /> Contact</button>
                         </li>
                     </ul>
                 </nav>
