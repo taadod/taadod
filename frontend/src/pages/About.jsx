@@ -334,7 +334,7 @@ const About = () => {
             </section>
 
             {/* Governance Section */}
-            <section className="my-14 bg-background about-section" data-index="4">
+            {/* <section className="my-14 bg-background about-section" data-index="4">
                 <Container>
                     <div className="max-w-full mx-auto">
                         <div className="text-center mb-16">
@@ -368,7 +368,7 @@ const About = () => {
                         </div>
                     </div>
                 </Container>
-            </section>
+            </section> */}
 
             {/* Reporting Mechanism Section */}
             <section className="py-14 bg-teal-800 relative overflow-hidden about-section" data-index="5">
@@ -481,38 +481,6 @@ const About = () => {
                                     On Monday, January 18, 2010, at the Courtyard Hotel in Kuwait, Sheikh Ahmad Al-Fahad Al-Ahmad Al-Jaber Al-Sabah presented the Excellence Award for Charitable Institutions to Taadod Charity Organization. The organization deservedly won first place in recognition of its efforts in charitable work within Qatar and abroad.
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </Container>
-            </section>
-
-            {/* CTA Section */}
-            <section className="py-14 bg-teal-800 relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-0 left-0 w-96 h-96 bg-amber-400 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-                    <div className="absolute bottom-0 right-0 w-96 h-96 bg-teal-400 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
-                </div>
-                <Container>
-                    <div className="relative z-10 text-center max-w-3xl mx-auto">
-                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                            Join Us in Making a <span className="text-amber-400">Difference</span>
-                        </h2>
-                        <p className="text-white/80 text-lg mb-8">
-                            Your support helps us continue our mission of serving humanity and building a better future for those in need.
-                        </p>
-                        <div className="flex flex-wrap justify-center gap-4">
-                            <Link
-                                to="/donate"
-                                className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-[#0d3d4a] font-bold px-8 py-4 rounded-full text-lg transition-all hover:shadow-2xl hover:shadow-amber-500/30 hover:-translate-y-0.5"
-                            >
-                                Donate Now <ArrowRight size={20} />
-                            </Link>
-                            <Link
-                                to="/contact"
-                                className="inline-flex items-center gap-2 border border-white/30 hover:border-white/60 text-white font-semibold px-8 py-4 rounded-full text-lg transition-all hover:bg-white/10 backdrop-blur-sm"
-                            >
-                                Contact Us
-                            </Link>
                         </div>
                     </div>
                 </Container>

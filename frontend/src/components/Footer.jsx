@@ -168,14 +168,6 @@ const Footer = () => {
                         <p className="text-white/35 text-sm">
                             © {new Date().getFullYear()} Taadod Charity Organization. All rights reserved.
                         </p>
-                        <div className="flex items-center gap-6">
-                            <Link to="/contact" className="text-white/35 hover:text-amber-400 text-sm transition-colors">
-                                Compliance & Reporting
-                            </Link>
-                            <Link to="/about" className="text-white/35 hover:text-amber-400 text-sm transition-colors">
-                                Governance
-                            </Link>
-                        </div>
                     </div>
                 </Container>
             </div>

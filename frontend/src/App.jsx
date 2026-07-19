@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 
 function App(){
     return (
-        <main className="bg-gray-50">
+        <main className="">
             <Header />
             <Outlet />
             <Footer />

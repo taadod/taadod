@@ -346,12 +346,6 @@ const Projects = () => {
                         <p className="text-white/70 text-lg mb-8 max-w-xl mx-auto">
                             Every contribution — large or small — helps us bring relief, education, and hope to those who need it most.
                         </p>
-                        <Link
-                            to="/contact"
-                            className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-teal-900 font-bold px-10 py-4 rounded-full text-lg transition-all hover:shadow-xl hover:shadow-amber-500/30 hover:-translate-y-0.5"
-                        >
-                            Donate Now <ArrowRight size={20} />
-                        </Link>
                     </div>
                 </Container>
             </section>

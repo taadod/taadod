@@ -1,7 +1,7 @@
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { closeMenu, darkLogo, logo, menuIcon } from "../assets";
 import Container from "./Container";
-import { ChevronRight, LayoutDashboard, LogIn, Search, ChevronDown, X, Gavel, Clock, DollarSign, Gift, Euro, PoundSterling, HandHeartIcon, Heart } from "lucide-react";
+import { ChevronRight, LayoutDashboard, LogIn, Search, ChevronDown, X, Gavel, Clock, DollarSign, Gift, Euro, PoundSterling, HandHeartIcon, Heart, Mail } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 const navLinks = [
@@ -138,7 +138,7 @@ function Header() {
                         </li> */}
 
                         <li>
-                            <button className="flex items-center gap-2 inset-0 bg-gradient-to-r from-teal-800 to-teal-900 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => navigate('/contact')}><HandHeartIcon size={20} /> Donate</button>
+                            <button className="flex items-center gap-2 inset-0 bg-gradient-to-r from-teal-800 to-teal-900 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => navigate('/contact')}><Mail size={20} /> Contact</button>
                         </li>
                     </ul>
                 </nav>
@@ -154,7 +154,7 @@ function Header() {
                             ))
                         }
 
-                        <li className="relative mx-5 py-2 mb-2">
+                        {/* <li className="relative mx-5 py-2 mb-2">
                             <button
                                 onClick={() => {
                                     setMobileCurrencySwitcherOpen(true);
@@ -165,10 +165,10 @@ function Header() {
                                 Currency
                                 <ChevronRight size={16} />
                             </button>
-                        </li>
+                        </li> */}
 
                         <li>
-                            <button className="flex items-center gap-2 bg-gradient-to-r from-teal-900 to-teal-950 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => { navigate('/login'); setIsMenuOpen(false) }}><HandHeartIcon size={20} /> Donate</button>
+                            <button className="flex items-center gap-2 bg-gradient-to-r from-teal-900 to-teal-950 text-white px-5 py-2 rounded-md cursor-pointer" onClick={() => { navigate('/login'); setIsMenuOpen(false) }}><Mail size={20} /> Contact</button>
                         </li>
                     </ul>
                 </nav>
